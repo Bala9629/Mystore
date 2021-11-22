@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test]" guice-stage="DEVELOPMENT" verbose="2">
+  <test thread-count="5" name="testcase3(failed)" verbose="2">
+    <classes>
+      <class name="browserlaunch.AddtoCart">
+        <methods>
+          <include name="checkout"/>
+          <include name="log4j"/>
+        </methods>
+      </class> <!-- browserlaunch.AddtoCart -->
+    </classes>
+  </test> <!-- testcase3(failed) -->
+</suite> <!-- Failed suite [Test] -->

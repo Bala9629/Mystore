@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-22T16:37:14 IST" name="Test" finished-at="2021-11-22T16:38:00 IST" duration-ms="45925">
+    <groups>
+    </groups>
+    <test started-at="2021-11-22T16:37:14 IST" name="testcase" finished-at="2021-11-22T16:37:29 IST" duration-ms="14286">
+      <class name="browserlaunch.Browsers">
+        <test-method signature="browsers_name(java.lang.String)[pri:0, instance:browserlaunch.Browsers@1c33c17b]" started-at="2021-11-22T16:37:14 IST" name="browsers_name" finished-at="2021-11-22T16:37:29 IST" duration-ms="14238" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browsers_name -->
+      </class> <!-- browserlaunch.Browsers -->
+    </test> <!-- testcase -->
+    <test started-at="2021-11-22T16:37:29 IST" name="testcase1" finished-at="2021-11-22T16:37:35 IST" duration-ms="5975">
+      <class name="browserlaunch.login">
+        <test-method signature="loginn()[pri:0, instance:browserlaunch.login@42b02722]" started-at="2021-11-22T16:37:29 IST" name="loginn" finished-at="2021-11-22T16:37:35 IST" duration-ms="5965" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginn -->
+      </class> <!-- browserlaunch.login -->
+    </test> <!-- testcase1 -->
+    <test started-at="2021-11-22T16:37:35 IST" name="testcase2" finished-at="2021-11-22T16:37:35 IST" duration-ms="21">
+      <class name="browserlaunch.Signup">
+        <test-method signature="Signin()[pri:0, instance:browserlaunch.Signup@2b76ff4e]" started-at="2021-11-22T16:37:35 IST" name="Signin" finished-at="2021-11-22T16:37:35 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Signin -->
+      </class> <!-- browserlaunch.Signup -->
+    </test> <!-- testcase2 -->
+    <test started-at="2021-11-22T16:37:35 IST" name="testcase3" finished-at="2021-11-22T16:38:00 IST" duration-ms="25507">
+      <class name="browserlaunch.AddtoCart">
+        <test-method is-config="true" signature="log4j()[pri:0, instance:browserlaunch.AddtoCart@b7c4869]" started-at="2021-11-22T16:37:35 IST" name="log4j" finished-at="2021-11-22T16:37:35 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- log4j -->
+        <test-method signature="clickingondress()[pri:0, instance:browserlaunch.AddtoCart@b7c4869]" started-at="2021-11-22T16:37:35 IST" name="clickingondress" finished-at="2021-11-22T16:37:42 IST" duration-ms="7402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickingondress -->
+        <test-method is-config="true" signature="log4j()[pri:0, instance:browserlaunch.AddtoCart@b7c4869]" started-at="2021-11-22T16:37:42 IST" name="log4j" finished-at="2021-11-22T16:37:42 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- log4j -->
+        <test-method signature="dataenterincart()[pri:1, instance:browserlaunch.AddtoCart@b7c4869]" started-at="2021-11-22T16:37:42 IST" name="dataenterincart" finished-at="2021-11-22T16:37:43 IST" duration-ms="449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataenterincart -->
+        <test-method is-config="true" signature="log4j()[pri:0, instance:browserlaunch.AddtoCart@b7c4869]" started-at="2021-11-22T16:37:43 IST" name="log4j" finished-at="2021-11-22T16:37:43 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- log4j -->
+        <test-method signature="checkout()[pri:3, instance:browserlaunch.AddtoCart@b7c4869]" started-at="2021-11-22T16:37:43 IST" name="checkout" finished-at="2021-11-22T16:38:00 IST" duration-ms="17633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkout -->
+      </class> <!-- browserlaunch.AddtoCart -->
+    </test> <!-- testcase3 -->
+  </suite> <!-- Test -->
+</testng-results>
