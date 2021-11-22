@@ -47,7 +47,7 @@ public class Browsers {
 		}
 
 		else
-			l.info("Make sure to choose the correct browsers");
+			l.info("Make sure to choose the correct browser");
 
 		}
 
