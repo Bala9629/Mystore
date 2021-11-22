@@ -49,7 +49,7 @@ public class AddtoCart {
 		l.info("quantity choosen");
 		Select a = new Select(Elements.group_1);
 		a.selectByVisibleText(obj.getdata(2, 1, 2));
-		l.info("choose the size");
+		l.info("choose the size of the dress");
 		if (obj.getdata(2, 1, 3) == "Green") {
 			Elements.color_15.click();
 			l.info("Green color has been selected");
